@@ -22,14 +22,14 @@ To install CentralConnect, follow these steps:
 
 Here's a simple example to get started with CentralConnect:
 
-\```python
+```python
 from CentralConnect import Server, Credential
 
 server = Server()
 available_hosts = server.ping_hosts()
 credentials = Credential('my_database')
 decrypted_credential = credentials.get_decrypted()
-\```
+```
 
 This example demonstrates basic operations like pinging hosts and managing database credentials.
 
