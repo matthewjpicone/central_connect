@@ -1,4 +1,4 @@
-cryptography==42.0.4
+cryptography==44.0.1
 icmplib==3.0.4
 keyring==23.13.1
 setuptools==70.0.0
